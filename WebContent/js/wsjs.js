@@ -1,4 +1,4 @@
-var ws  = new WebSocket('ws://192.168.109.1:8080/Serv/websocket');
+var ws  = new WebSocket('ws://192.168.109.1:8080/NLP/websocket');
 $("#txt1").keydown(function() {// 给输入框绑定按键事件
 	if (event.keyCode == 13) {// 判断如果按下的是回车键则执行下面的代码
 		send()
