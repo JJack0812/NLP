@@ -6,7 +6,9 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * http请求尝试。和项目没关系
+ */
 public class Myhttp {
 
 	public static void main(String[] args) {

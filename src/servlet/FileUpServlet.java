@@ -1,5 +1,7 @@
 package servlet;
-
+/**
+ * 处理文件上传的servlet
+ */
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;

@@ -14,6 +14,7 @@ import org.json.JSONObject;
 
 /**
  * Servlet implementation class hello
+ * 自己最开始写的一个和项目无关的servlet
  */
 @WebServlet("/hello")
 public class hello extends HttpServlet {

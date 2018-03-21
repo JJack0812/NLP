@@ -6,7 +6,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
-
+/**
+ * 模拟web端的websocket，模拟用的。暂时不成功。
+ * @author 建树
+ *
+ */
 public class Client {
 	Socket socket;
 	BufferedReader br ;
