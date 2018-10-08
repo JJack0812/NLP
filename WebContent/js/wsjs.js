@@ -27,6 +27,9 @@ function send() {
 	
 }
 var msg;
+ws.onclose = function(){
+	alert("已关闭")
+}
 ws.onmessage = function(e) {
 	//收到消息
 	msg = e.data;
